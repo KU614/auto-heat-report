@@ -468,6 +468,14 @@ body {
         padding: 8px 2px;
         font-size: 0.98em;
     }
+    .reset-fields {
+        width: 100% !important;
+        display: block !important;
+        box-sizing: border-box !important;
+        margin-bottom: 8px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 .auth-modal {
