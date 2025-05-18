@@ -6,6 +6,21 @@
     <title>Система управления печами</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Firebase App (core) -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <!-- Firebase Auth -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyB8kMLawLbP29nPXoE5sou91E9IKn6Xoco",
+        authDomain: "auto-heat-report.firebaseapp.com",
+        projectId: "auto-heat-report",
+        storageBucket: "auto-heat-report.firebasestorage.app",
+        messagingSenderId: "643387280117",
+        appId: "1:643387280117:web:a06ba092caa2792a1493bc"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
 </head>
 <body class="light-theme">
     <div class="top-bar">
