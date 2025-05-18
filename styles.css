@@ -438,20 +438,22 @@ body {
         padding: 10px 4px;
     }
     .buttons-row {
+        display: flex;
         flex-direction: column;
         gap: 8px;
         margin-top: 10px;
     }
     .buttons-row button,
-    .reset-fields,
-    .start-process,
-    .start-downtime,
-    .end-downtime,
-    .reset-journal {
+    .reset-fields {
         width: 100%;
+        box-sizing: border-box;
         font-size: 1em;
         padding: 12px 0;
-        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
     }
     .furnace-journal {
         padding: 8px 2px;
@@ -467,14 +469,6 @@ body {
     .journal-entries {
         padding: 8px 2px;
         font-size: 0.98em;
-    }
-    .reset-fields {
-        width: 100% !important;
-        display: block !important;
-        box-sizing: border-box !important;
-        margin-bottom: 8px !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
     }
 }
 
